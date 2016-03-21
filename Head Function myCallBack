@@ -1,0 +1,22 @@
+<script>
+
+  function myCallback(hypeDocument, element, event) {
+    // display some data
+    //alert("id: " + element.id + " type: " + event.type);
+
+    // show the next scene and the 'SecondTimeline'
+  hypeDocument.showSceneNamed('SecondScene');
+	hypeDocument.playTimelineNamed('SecondTimeline');
+	
+    // return false so it does not load the initial scene
+    return false;
+  }
+
+  if("HYPE_eventListeners" in window === false) {
+    window.HYPE_eventListeners = Array();
+  }
+  window.HYPE_eventListeners.push({"type":"HypeDocumentLoad", "callback":myCallback});
+
+</script>
+	
+	
