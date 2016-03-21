@@ -1,0 +1,10 @@
+//This is a simple Hype Function that adjusts the size and animation style of an element
+
+// element - DOMHTMLElement that triggered this function being called
+// event - event that triggered this function being called
+function Melt(hypeDocument, element, event) {
+
+var item1Height = hypeDocument.getElementProperty(item1, 'height');
+hypeDocument.setElementProperty(item2, 'height', item1Height, 2.0, 'easeout')
+
+{
