@@ -1,0 +1,18 @@
+// ---- This is the line you need to put into the Head of your document
+
+<head>
+  <meta name="viewport" content="user-scalable=yes, width=300" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+</head>
+
+
+
+// ----- Below is the Javascript Function ------
+
+
+//element - DOMHTMLElement that triggered this function being called
+	//event - event that triggered this function being called
+	function fadeout(hypeDocument, element, event) {
+	$("#photoheadshot").fadeOut();
+	}
