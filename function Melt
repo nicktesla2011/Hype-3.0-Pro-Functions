@@ -8,3 +8,4 @@ var item1Height = hypeDocument.getElementProperty(item1, 'height');
 hypeDocument.setElementProperty(item2, 'height', item1Height, 2.0, 'easeout')
 
 {
+//For more information on how to apply http://www.gressle.com/HypeLibrary
