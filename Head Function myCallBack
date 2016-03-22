@@ -1,7 +1,7 @@
 <script>
 
   function myCallback(hypeDocument, element, event) {
-    // display some data
+    // display some data or rather open the file
     //alert("id: " + element.id + " type: " + event.type);
 
     // show the next scene and the 'SecondTimeline'
@@ -18,5 +18,5 @@
   window.HYPE_eventListeners.push({"type":"HypeDocumentLoad", "callback":myCallback});
 
 </script>
-	
+//For more info see http://www.gressle.com/HypeLibrary	
 	
